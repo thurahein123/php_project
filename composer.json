@@ -1,0 +1,17 @@
+{
+    "name": "hp/retry-new-project",
+    "authors": [
+        {
+            "name": "thura hein"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\" : "_classes/Libs/",
+            "Helpers\\" : "_classes/Helpers/"
+        }
+    }
+}
